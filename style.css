@@ -1,0 +1,65 @@
+/*
+ * Proyek Akhir Semester Ganjil — Paket 1
+ * XI RPL 2 | Pemrograman Web
+ *
+ * Lengkapi hanya bagian yang diberi penanda TODO CSS-01 sampai CSS-04.
+ * Tidak perlu memakai framework CSS, animasi, atau library tambahan.
+ */
+
+/* Disediakan guru: ukuran elemen mencakup padding dan border. */
+* {
+  box-sizing: border-box;
+}
+
+/* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
+   margin, dan padding dasar halaman. */
+body {
+}
+
+/* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
+   border dan border-radius seperlunya. */
+.container {
+}
+
+.kepala-halaman {
+}
+
+.panel {
+}
+
+/* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
+   warna tombol, dan tampilan yang konsisten. */
+.form-baris {
+}
+
+.form-baris label {
+}
+
+.form-baris input {
+}
+
+.aksi {
+}
+
+.aksi button {
+}
+
+/* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
+   status. Bedakan tampilan status berhasil dan gagal. */
+#daftarKegiatan {
+}
+
+#daftarKegiatan li {
+}
+
+.ringkasan {
+}
+
+#pesanStatus {
+}
+
+#pesanStatus.berhasil {
+}
+
+#pesanStatus.gagal {
+}
