@@ -1,0 +1,117 @@
+/*
+ * Proyek Akhir Semester Ganjil — Paket 1
+ * XI RPL 2 | Pemrograman Web
+ *
+ * Lengkapi hanya bagian yang diberi penanda TODO CSS-01 sampai CSS-04.
+ * Tidak perlu memakai framework CSS, animasi, atau library tambahan.
+ */
+
+/* Disediakan guru: ukuran elemen mencakup padding dan border. */
+* {
+  box-sizing: border-box;
+}
+
+/* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
+   margin, dan padding dasar halaman. */
+body {
+  background-color: white;
+  font-family: 18px;
+  color: deeppink;
+  margin: 0;
+  padding: 20px;
+}
+
+/* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
+   border dan border-radius seperlunya. */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid palevioletred;
+  border-radius: 12px;
+  background-color: beige;
+}
+
+.kepala-halaman {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.panel {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+/* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
+   warna tombol, dan tampilan yang konsisten. */
+.form-baris {
+  margin-bottom: 15px;
+}
+
+.form-baris label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-baris input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.aksi {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.aksi button {
+  padding: 10px 20px;
+  background-color: palevioletred;
+  color: darkred;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
+   status. Bedakan tampilan status berhasil dan gagal. */
+#daftarKegiatan {
+  padding-left: 25px;
+}
+
+#daftarKegiatan li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.ringkasan {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#pesanStatus {
+  padding: 12px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+#pesanStatus.berhasil {
+  color: skyblue;
+  background-color: navajowhite;
+  border-radius: 6px;
+}
+
+#pesanStatus.gagal {
+  padding: 12px;
+  background-color: beige;
+  color: plum;
+  border-radius: 6px;
+}
