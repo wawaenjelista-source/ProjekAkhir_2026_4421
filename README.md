@@ -1,5 +1,9 @@
 # Proyek Akhir Semester Ganjil — Pengelolaan Kegiatan Kelas
 
+<<<<<<< HEAD
+Kelas: XI RPL 2
+Mata pelajaran: Pemrograman Web
+=======
 Kelas: XI RPL 2
 Mata pelajaran: Pemrograman Web
 Tahun pelajaran: 2026/2027
@@ -27,6 +31,7 @@ Buka `index.html` menggunakan browser secara offline.
 
 Daftar fitur dan hasil pengujian lengkap akan dilengkapi sesuai
 instruksi Paket 3. Jangan mengerjakan bagian tersebut pada Paket 1.
+<<<<<<< HEAD
 
 ## Fitur yang berhasil dibuat
 Tampil, tambah, cari, hapus, dan menhitung jumlah.

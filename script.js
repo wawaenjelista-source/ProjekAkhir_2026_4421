@@ -22,14 +22,21 @@ function tampilkanKegiatan(daftar) {
 
   // Disediakan guru: hapus isi daftar sebelum menampilkannya kembali.
   elemenDaftar.innerHTML = "";
-
+}
   // TODO JS-01:
   // Perbaiki batas perulangan for berikut agar dimulai dari indeks pertama
   // dan memproses seluruh elemen berdasarkan panjang Array (length).
+
   for (let i = 0; i < daftar.length; i++) {
     // TODO JS-02:
     // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
     const namaKegiatan = daftar[i];
+
+  for (let i = 0; i < 0; i++) {
+    // TODO JS-02:
+    // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
+    const namaKegiatan = "";
+
 
     // Disediakan guru: pembentukan dan penampilan elemen HTML.
     const item = document.createElement("li");
@@ -185,3 +192,5 @@ function hitungJumlahKegiatan(daftar) {
   return daftar.length;
 }
   // TODO JS-09: Gunakan length dan return untuk menghasilkan jumlah kegiatan.
+
+
